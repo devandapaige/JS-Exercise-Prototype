@@ -120,7 +120,7 @@ Baby.prototype.play = function () {
 
   In your own words explain the four principles for the "this" keyword below:
   1. Window Binding -- "this" refers to the console object in a global scope.
-  2. Implicit Binding -- "this" refers to the object that is being called in a function.
+  2. Implicit Binding -- "this" refers to the object that is being called in a function.(object before '.')
   3. Explicit Binding -- "this" refers to something that we explicitly call using .apply(), .call(), or .bind().
   4. New Binding --"this" refers to a new object that is created.
 */
